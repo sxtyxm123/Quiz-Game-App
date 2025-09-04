@@ -51,9 +51,7 @@ export function QuestionComponent({
           <CardTitle className="text-left leading-relaxed" id={`question-${questionNumber}`}>
             {question.question}
           </CardTitle>
-          <Badge variant="outline" className="shrink-0">
-            {question.category}
-          </Badge>
+          
         </div>
       </CardHeader>
       <CardContent className="space-y-3">
