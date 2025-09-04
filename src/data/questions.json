@@ -1,0 +1,74 @@
+{
+  "results": [
+    {
+      "question": "What is the capital of France?",
+      "correct_answer": "Paris",
+      "incorrect_answers": ["London", "Berlin", "Madrid"],
+      "difficulty": "easy",
+      "category": "Geography"
+    },
+    {
+      "question": "Which planet is known as the Red Planet?",
+      "correct_answer": "Mars",
+      "incorrect_answers": ["Venus", "Jupiter", "Mercury"],
+      "difficulty": "easy",
+      "category": "Science"
+    },
+    {
+      "question": "What is the largest mammal in the world?",
+      "correct_answer": "Blue Whale",
+      "incorrect_answers": ["African Elephant", "Giraffe", "Hippopotamus"],
+      "difficulty": "easy",
+      "category": "Nature"
+    },
+    {
+      "question": "In which year did World War II end?",
+      "correct_answer": "1945",
+      "incorrect_answers": ["1944", "1946", "1943"],
+      "difficulty": "medium",
+      "category": "History"
+    },
+    {
+      "question": "What is the chemical symbol for gold?",
+      "correct_answer": "Au",
+      "incorrect_answers": ["Go", "Gd", "Ag"],
+      "difficulty": "medium",
+      "category": "Science"
+    },
+    {
+      "question": "Which Shakespeare play features the character Hamlet?",
+      "correct_answer": "Hamlet",
+      "incorrect_answers": ["Macbeth", "Romeo and Juliet", "Othello"],
+      "difficulty": "easy",
+      "category": "Literature"
+    },
+    {
+      "question": "What is the smallest prime number?",
+      "correct_answer": "2",
+      "incorrect_answers": ["1", "3", "0"],
+      "difficulty": "medium",
+      "category": "Mathematics"
+    },
+    {
+      "question": "Which programming language was created by James Gosling?",
+      "correct_answer": "Java",
+      "incorrect_answers": ["Python", "C++", "JavaScript"],
+      "difficulty": "hard",
+      "category": "Technology"
+    },
+    {
+      "question": "What is the currency of Japan?",
+      "correct_answer": "Yen",
+      "incorrect_answers": ["Yuan", "Won", "Rupee"],
+      "difficulty": "easy",
+      "category": "Geography"
+    },
+    {
+      "question": "Who painted the Mona Lisa?",
+      "correct_answer": "Leonardo da Vinci",
+      "incorrect_answers": ["Pablo Picasso", "Vincent van Gogh", "Michelangelo"],
+      "difficulty": "easy",
+      "category": "Art"
+    }
+  ]
+}
