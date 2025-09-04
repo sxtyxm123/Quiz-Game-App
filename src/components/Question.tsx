@@ -47,8 +47,7 @@ export function QuestionComponent({
         </div>
       </CardHeader>
       <CardContent className="space-y-3">
-        <div className="text-sm text-muted-foreground mb-4">
-        </div>
+        
         {allAnswers.map((answer, index) => (
           <Button
             key={`${answer}-${index}`}
