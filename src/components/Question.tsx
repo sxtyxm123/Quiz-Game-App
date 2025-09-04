@@ -41,22 +41,13 @@ export function QuestionComponent({
     };
 
     window.addEventListener('keydown', handleKeyPress);
-    return () => window.removeEventListener('keydown', handleKeyPress);
-  }, [allAnswers, onAnswerSelect]);
-
-  return (
-    <Card>
-      <CardHeader>
-        <div className="flex justify-between items-start gap-4">
-          <CardTitle className="text-left leading-relaxed" id={`question-${questionNumber}`}>
-            {question.question}
+    return () => window.removeEventListener('keydown', handleKeyPress);u
           </CardTitle>
           
         </div>
       </CardHeader>
       <CardContent className="space-y-3">
         <div className="text-sm text-muted-foreground mb-4">
-          Use keyboard: Press A-D or 1-4 to select an answer
         </div>
         {allAnswers.map((answer, index) => (
           <Button
