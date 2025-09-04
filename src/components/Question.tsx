@@ -41,9 +41,17 @@ export function QuestionComponent({
     };
 
     window.addEventListener('keydown', handleKeyPress);
-    return () => window.removeEventListener('keydown', handleKeyPress);u
+    return () => window.removeEventListener('keydown', handleKeyPress);
+  }, [allAnswers, onAnswerSelect]);
+
+  return (
+    <Card>
+      <CardHeader>
+        <div className="flex justify-between items-start gap-4">
+          <CardTitle className="text-left leading-relaxed" id={`question-${questionNumber}`}>
+            {question.question}
           </CardTitle>
-          
+         
         </div>
       </CardHeader>
       <CardContent className="space-y-3">
